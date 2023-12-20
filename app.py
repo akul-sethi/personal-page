@@ -14,8 +14,8 @@ def index():
     return render_template("index.html")
 
 
-@socketio.on("connect")
-def connect():
+@socketio.on("connection")
+def connect(package):
     users[request.sid] = REPLWrapper("sethi-script/sethi", ">", None)
 
 
