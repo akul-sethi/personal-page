@@ -1,0 +1,3 @@
+[submodule "sethi-script"]
+	path = sethi-script
+	url = https://github.com/akul-sethi/sethi-script
