@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .side-bar-item {
+    @apply relative flex items-center justify-center 
+           h-12 w-fit p-2 mt-2 mb-2 mx-auto shadow-lg
+           bg-blue-shadowdark text-blue-light 
+           font-serif
+           hover:bg-blue-light hover:text-white
+           rounded-3xl hover:rounded-xl
+           transition-all ease-linear duration-300
+           cursor-pointer 
+  }
+}
