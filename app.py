@@ -16,7 +16,7 @@ def index():
 
 @socketio.on("connection")
 def connect(package):
-    users[request.sid] = REPLWrapper("sethi-script/sethi", ">", None)
+    users[request.sid] = REPLWrapper("sethi-script/sethi", ">>>", None)
 
 
 @socketio.on("command")
